@@ -13,30 +13,33 @@ A tool for scientist to select the optimal primers or probes from a list.
 - Pandas
 
 ## Installation and start
-1.**Clone the repository:**
- '''
+1. **Clone the repository:**
+```
 git clone [https://github.com](https://github.com/IvanKoscheev/Primer_Analyzer)
-'''
-2.**Install libraries:** 
-'''
+```
+3. **Install libraries:**
+```
 pip install -r requirements.txt
-'''
-3.**Usage** 
-'''
+```
+5. **Usage** 
+```
 python main.py -p [primer] -mi [monovalent]] -m [magnesium] -d [dNTP] -t [temp] -f [file path] -s [output path]
-'''
-- '-p'  : **Primer concentration** (nM).
-- '-mi' : **Monovalent ions concentration** (mM) — e.g., $Na^+$, $K^+$.
-- '-m'  : **Magnesium ions concentration** ($Mg^{2+}$) (mM).
-- '-d'  : **dNTPs concentration** (mM).
-- '-t'  : **Target melting temperature** (°C). The output table will be sorted so that primers with Tm closest to this value appear at the top.
-- '-f'  : **File path** — path to your input '.txt' file with sequences.
-- '-s'  : **Spreadsheet path** — name or path for the output '.csv' file. 
+```
+- `-p`  : **Primer concentration** (nM).
+- `-mi` : **Monovalent ions concentration** (mM) — e.g., $Na^+$, $K^+$.
+- `-m`  : **Magnesium ions concentration** ($Mg^{2+}$) (mM).
+- `-d`  : **dNTPs concentration** (mM).
+- `-t`  : **Target melting temperature** (°C). The output table will be sorted so that primers with Tm closest to this value appear at the top.
+- `-f`  : **File path** — path to your input '.txt' file with sequences.
+- `-s`  : **Spreadsheet path** — name or path for the output '.csv' file. 
 
 ## Example of work:
 ![TXT file example](screenshots/example_screenshot.png)
+*Example of the input .txt file structure*
 ![Starting program and '--help'](screenshots/cmd_screenshot.png)
-![Result spreadsheet (autoformatting as dates in cells is Excel issue)](screenshots/table_screenshot.png)
+*Running the script with parameters*
+![Result spreadsheet](screenshots/table_screenshot.png)
+*Result spreadsheet (autoformatting as dates in cells is Excel issue)*
 
 ## Disclaimer
 This software is for **educational and research purposes only**. For clinical or professional diagnostic use, please rely on certified professional software.
