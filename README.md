@@ -1,18 +1,18 @@
-#Primer Analyzer
+# Primer Analyzer
 A tool for scientist to select the optimal primers or probes from a list.
 
-##Main functions
--Cleaning the sequences of unnecessary characters
--Calculation of Tm and hairpin stability ($\Delta G$ at the melting temperature)
--Sequence structure analysis
--Automated design recommendations
--Exporting results to CSV spreadsheets
+## Main functions
+- Cleaning the sequences of unnecessary characters
+- Calculation of Tm and hairpin stability ($\Delta G$ at the melting temperature)
+- Sequence structure analysis
+- Automated design recommendations
+- Exporting results to CSV spreadsheets
 
-##Technology stack
--Python 3.x
--Pandas
+## Technology stack
+- Python 3.x
+- Pandas
 
-##Installation and start
+## Installation and start
 1.**Clone the repository:**
  '''
 git clone [https://github.com](https://github.com/IvanKoscheev/Primer_Analyzer)
