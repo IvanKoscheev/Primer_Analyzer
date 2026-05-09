@@ -17,11 +17,11 @@ A tool for scientist to select the optimal primers or probes from a list.
 ```
 git clone [https://github.com](https://github.com/IvanKoscheev/Primer_Analyzer)
 ```
-3. **Install libraries:**
+2. **Install libraries:**
 ```
 pip install -r requirements.txt
 ```
-5. **Usage** 
+3. **Usage** 
 ```
 python main.py -p [primer] -mi [monovalent]] -m [magnesium] -d [dNTP] -t [temp] -f [file path] -s [output path]
 ```
