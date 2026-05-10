@@ -15,7 +15,7 @@ A tool for scientist to select the optimal primers or probes from a list.
 ## Installation and start
 1. **Clone the repository:**
 ```
-git clone [https://github.com](https://github.com/IvanKoscheev/Primer_Analyzer)
+git clone https://github.com/IvanKoscheev/Primer_Analyzer
 ```
 2. **Install libraries:**
 ```
